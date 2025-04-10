@@ -1,7 +1,7 @@
 @import "tailwindcss";
 
 :root {
-  --background: #ffffff;
+  --background: #D4DBE0;
   --foreground: #171717;
   --navbar: #2B2B2B;
   --search-btn:#09757A;
@@ -21,6 +21,7 @@
 @media (prefers-color-scheme: dark) {
   :root {
     --background: #0a0a0a;
+    --background: #D4DBE0;
     --foreground: #0f0f0f;
   }
 }
@@ -36,4 +37,11 @@ body {
 }
 .search-btn{
   background-color: var(--search-btn);
+}
+.hero-div{
+  background-image: url(../../public/img/tandem-x-visuals-fYx7mQHxVEw-unsplash.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: cover;
 }
