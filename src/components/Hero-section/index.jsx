@@ -17,12 +17,12 @@ const Hero=()=>{
                 </div>
                 <section className="h-screen mt-2">
                     <div className="hero-div px-4 h-full max-h-[790px] rounded-[20px]">
-                        <div>
+                        {/* <div>
                             <p className="p-2 bg-white">NEW</p>
                             <div>
                             <Image src={'/navbar/logo.svg'} width={36} height={36}/>
                             </div>
-                        </div>
+                        </div> */}
                     </div>
                 </section>
             </div>
